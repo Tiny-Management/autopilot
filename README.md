@@ -7,7 +7,7 @@ powershell -Command "& { Install-Script Get-WindowsAutopilotInfo -Force; Get-Win
 ```
 
 ## For Existing Installs
-Open a Powershell session and run the following command to download and run the hash generator.
+Open a Powershell session as Administrator and run the following command to download and run the hash generator.
 ```
 irm "https://raw.githubusercontent.com/Tiny-Management/autopilot/refs/heads/main/CollectAutopilotHash.ps1" | iex
 ```
