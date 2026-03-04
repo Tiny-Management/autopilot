@@ -11,4 +11,4 @@ Open a Powershell session and run the following command to download and run the 
 ```
 irm "https://raw.githubusercontent.com/Tiny-Management/autopilot/CollectAutopilotHash.ps1" | iex
 ```
-
+This generates a CSV with the hardware hash, serial number, and device ID that you upload directly to **Intune > Devices > Enroll Devices > Windows Autopilot Deployment Program > Devices > Import**.
