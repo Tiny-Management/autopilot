@@ -6,6 +6,10 @@ During the install phase, hit Shift-F10 to open a System32 window, then run:
 powershell -Command "& { Install-Script Get-WindowsAutopilotInfo -Force; Get-WindowsAutopilotInfo -Online }"
 ```
 
+It will ask for a hash phrase, which is stored in the Google Apps Script endpoint.  To view, log in as Super Admin.
+
+https://script.google.com/home/projects/1pfP1_pPRfAQTwqC9mg5JcDnDgbeKYS345qbwoXvRxpR-_uqMhtoa78k5/edit
+
 ## For Existing Installs
 Open a Powershell session as Administrator and run the following command to download and run the hash generator.
 ```
